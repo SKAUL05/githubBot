@@ -1,3 +1,3 @@
 # Github Bot
 
-## Shell Script to post backdated commits
+## Python Script including shell commands to post backdated commits
