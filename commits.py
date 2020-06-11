@@ -14,7 +14,7 @@ for year in range(2016, 2018):
             os.system("mkdir " + str(day))
             os.chdir(str(day))
             total_commits = random.randint(1, 12)
-            for a_commit in range(0, total_commits):
+            for a_commit in range(total_commits):
                 os.system(
                     "echo '"
                     + str(a_commit)
