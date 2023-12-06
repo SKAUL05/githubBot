@@ -4,14 +4,14 @@ import os
 import random
 
 for year in range(2016, 2018):
-    os.system("mkdir " + str(year))
+    os.system(f"mkdir {str(year)}")
     os.chdir(str(year))
     for month in range(1, 13):
-        os.system("mkdir " + str(month))
+        os.system(f"mkdir {str(month)}")
         os.chdir(str(month))
         total_days = random.randint(1, 31)
         for day in range(1, total_days):
-            os.system("mkdir " + str(day))
+            os.system(f"mkdir {str(day)}")
             os.chdir(str(day))
             total_commits = random.randint(1, 12)
             for a_commit in range(total_commits):
